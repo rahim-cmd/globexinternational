@@ -1,0 +1,46 @@
+:root{
+
+    --primary:#0B1F2A;
+    --secondary:#14532D;
+    --accent:#D4AF37;
+    --bg:#081018;
+
+    --white:#ffffff;
+    --light:#F8FAFC;
+    --text:#D1D5DB;
+
+    --heading:'Cormorant Garamond',serif;
+    --body:'Manrope',sans-serif;
+
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    margin:0;
+    padding:0;
+
+    background:var(--bg);
+    color:var(--text);
+
+    font-family:var(--body);
+
+    overflow-x:hidden;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-family:var(--heading);
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+*{
+    box-sizing:border-box;
+}
