@@ -39,8 +39,6 @@ const footer = {
     "Home",
     "About",
     "Products",
-    "Countries",
-    "Gallery",
     "Contact",
   ],
 
@@ -49,6 +47,7 @@ const footer = {
     "Premium Rice",
     "Indian Spices",
     "Fresh Garlic",
+    "Green Chilli",
     "Turmeric",
     "Fresh Potato",
   ],

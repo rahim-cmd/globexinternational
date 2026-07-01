@@ -21,14 +21,7 @@ export default function Navbar() {
       name: "Products",
       path: "/products",
     },
-    {
-      name: "Countries",
-      path: "/countries",
-    },
-    {
-      name: "Gallery",
-      path: "/gallery",
-    },
+    
     {
       name: "Contact",
       path: "/contact",
@@ -172,6 +165,7 @@ export default function Navbar() {
             {/* ================= OVERLAY ================= */}
 
       <div
+        onClick={() => setMenuOpen(false)}
         className={`fixed inset-0 z-[60] bg-black/60 backdrop-blur-sm transition-all duration-300 lg:hidden ${
           menuOpen
             ? "visible opacity-100"
