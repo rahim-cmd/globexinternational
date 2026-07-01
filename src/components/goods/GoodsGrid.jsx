@@ -13,6 +13,7 @@ export default function GoodsGrid() {
           className="
           grid
           gap-8
+          sm:grid-cols-1
           md:grid-cols-2
           xl:grid-cols-3
           "
