@@ -3,6 +3,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { FiGlobe } from "react-icons/fi";
 import stats from "../../data/stats";
 import CountUp from "react-countup";
+import { Navigate, useNavigate } from "react-router-dom";
 
 const container = {
   hidden: {},
@@ -25,6 +26,16 @@ const item = {
 };
 
 export default function HeroLeft() {
+
+  const navigate = useNavigate();
+
+  const gotoProducts = ()=>{
+    navigate('/products')
+  }
+  const gotoContact = ()=>{
+    navigate('/contact')
+  }
+
   return (
     <motion.div
       variants={container}
@@ -82,6 +93,7 @@ export default function HeroLeft() {
           hover:shadow-2xl
           hover:shadow-yellow-500/30
           "
+          onClick={gotoProducts}
         >
           Explore Products
           <FaArrowRight className="ml-3 inline transition group-hover:translate-x-2" />
@@ -98,6 +110,7 @@ export default function HeroLeft() {
           hover:bg-white
           hover:text-black
           "
+          onClick={gotoContact}
         >
           Request Quote
         </button>
