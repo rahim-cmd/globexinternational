@@ -146,7 +146,7 @@ export default function Navbar() {
 
           <NavLink
             to="/contact"
-            className="hidden rounded-full bg-yellow-500 px-6 py-3 font-semibold text-black shadow-lg shadow-yellow-500/30 transition duration-300 hover:scale-105 hover:bg-yellow-400 lg:inline-flex"
+            className="hidden rounded-full border border-yellow-400 px-6 py-3 font-semibold text-yellow-400 transition duration-300 hover:scale-105 hover:bg-yellow-500 lg:inline-flex"
           >
             Request Quote
           </NavLink>
@@ -249,7 +249,7 @@ export default function Navbar() {
           <NavLink
             to="/contact"
             onClick={() => setMenuOpen(false)}
-            className="flex w-full items-center justify-center rounded-full bg-yellow-500 py-4 text-lg font-semibold text-black transition hover:bg-yellow-400"
+            className="flex w-full items-center bg-yellow-400 text-black justify-center rounded-full  py-4 text-lg font-semibold text-[black] transition hover:bg-yellow-600 text-white"
           >
 
             Request Quote
